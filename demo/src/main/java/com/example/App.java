@@ -38,7 +38,7 @@ public class App {
     }
 
     static void inserirDados(Statement stm) {
-        String sql = "insert into persons (name) values ('iasmin')";
+        String sql = "insert into persons (name) values ('Arthur')";
         try {
             stm.executeUpdate(sql);
         } catch (SQLException e) {
